@@ -1,10 +1,10 @@
 # Completion Notification
 
-Use UIUC's outbound email server to notify you when a long-running job is completed.
+Use the `mailme` command to send an email to yourself when a long-running task is complete.
 
-In command line:
+In the command line:
 
-    python myscript.py; mailme [netid]@illinois.edu
+    python longscript.py; mailme [netid]@illinois.edu
     
 In Python:
 
